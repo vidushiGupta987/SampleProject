@@ -1,0 +1,71 @@
+nav  {
+    background-color: teal;
+    color: black;
+}
+
+#viewingSide {
+    width: 40%;
+    height: 88%;
+}
+
+#searchBox {
+    width: 40%;
+}
+
+#searchBoxContainer {
+    height: 8%;
+}
+
+@media all and (max-width: 797px) {
+    #searchBox {
+        margin-top: 3%;
+        width: 75%;
+    }
+    #searchBoxContainer {
+        height: 15%;
+    }
+}
+
+#viewingArea {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+}
+
+#interactingSide {
+    width: 52%;
+    height: 88%;
+    margin: auto 4%;
+}
+
+#subjectInput {
+    width: 30%;
+}
+
+#questionInput {
+    height: 25%;
+}
+
+.questionText {
+    color: rgb(95, 95, 95);
+}
+
+.question,
+.response {
+    background-color: rgb(238, 238, 238);
+    padding: 3% 4%;
+}
+
+#responses {
+    max-height: 196px;
+    overflow: auto;
+}
+
+#responseNameInput {
+    width: 30%;
+}
+
+#responseCommentInput {
+    height: 20%;
+}
